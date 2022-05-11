@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display:flex ;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-branca {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 1em rgb(195, 195, 195);
+}
+
+.caixa-branca img {
+    width: 100%;
+}
+
+.caixa-azul {
+    border-radius: 10px;
+}
+
+p {
+    color: gray;
+}
